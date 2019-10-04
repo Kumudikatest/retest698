@@ -23,7 +23,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "retest698/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    // cmnt \n     //ktest\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function (event, context, callback) {\n    // cm88nt44\n    //kte88st44\n    // edit44\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -59,10 +59,9 @@
     },
     "rootNode": "40183879-5255-41ef-99f6-1a1ce177ccca",
     "openFiles": [
-      "004b7822-eacd-4429-8a83-b311c36eac2a",
-      "cd6fcf61-1a5f-4f05-b83e-37f15e89daa5"
+      "004b7822-eacd-4429-8a83-b311c36eac2a"
     ],
-    "currentFileId": "cd6fcf61-1a5f-4f05-b83e-37f15e89daa5",
+    "currentFileId": "004b7822-eacd-4429-8a83-b311c36eac2a",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -89,7 +88,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1570175611391
+    "lastSave": 1570175754986
   },
   "VCS_STATE": {
     "provider": "GitHub",
