@@ -33,15 +33,11 @@
         },
         "triggers": [
           {
-            "resourceName": "s3cloud9Ktest",
-            "config": {
-              "type": "s3:ObjectRemoved:*",
-              "keyPrefix": "",
-              "keySuffix": ""
-            }
+            "resourceName": "apigusEast1sachithraAPInamehiruidneeany",
+            "config": {}
           },
           {
-            "resourceName": "apigusEast1sachithraAPInamehiruidneeany",
+            "resourceName": "cwebotUserHsScheduler",
             "config": {}
           }
         ]
@@ -72,22 +68,10 @@
     },
     "rootNode": "40183879-5255-41ef-99f6-1a1ce177ccca",
     "openFiles": [
-      "004b7822-eacd-4429-8a83-b311c36eac2a",
-      "cd6fcf61-1a5f-4f05-b83e-37f15e89daa5"
+      "004b7822-eacd-4429-8a83-b311c36eac2a"
     ],
     "currentFileId": "004b7822-eacd-4429-8a83-b311c36eac2a",
     "resources": {
-      "s3cloud9Ktest": {
-        "name": "s3cloud9Ktest",
-        "type": "S3",
-        "config": {
-          "mode": 1,
-          "bucket": {
-            "region": "us-east-1",
-            "name": "cloud9-ktest"
-          }
-        }
-      },
       "apigusEast1sachithraAPInamehiruidneeany": {
         "name": "apigusEast1sachithraAPInamehiruidneeany",
         "type": "API_GATEWAY",
@@ -113,6 +97,26 @@
           "stageName": "test112",
           "stageDeploymentId": "tm038c",
           "mode": 1
+        }
+      },
+      "cwebotUserHsScheduler": {
+        "name": "cwebotUserHsScheduler",
+        "type": "CLOUD_WATCH",
+        "config": {
+          "mode": 1,
+          "arn": "arn:aws:events:us-east-1:318300609668:rule/botUserHsScheduler",
+          "name": "botUserHsScheduler"
+        }
+      },
+      "s3cloud9Ktest": {
+        "name": "s3cloud9Ktest",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "cloud9-ktest"
+          }
         }
       }
     },
@@ -141,7 +145,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1570176518968
+    "lastSave": 1570176684783
   },
   "VCS_STATE": {
     "provider": "GitHub",
