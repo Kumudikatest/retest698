@@ -31,7 +31,12 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInamehiruidneeany",
+            "config": {}
+          }
+        ]
       },
       "dda77338-e2a9-4022-b50c-9adf16c8ca91": {
         "id": "dda77338-e2a9-4022-b50c-9adf16c8ca91",
@@ -62,7 +67,35 @@
       "004b7822-eacd-4429-8a83-b311c36eac2a"
     ],
     "currentFileId": "004b7822-eacd-4429-8a83-b311c36eac2a",
-    "resources": {},
+    "resources": {
+      "apigusEast1sachithraAPInamehiruidneeany": {
+        "name": "apigusEast1sachithraAPInamehiruidneeany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/hiruidnee": "mdiuqa",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/hiruidnee",
+          "resourceName": "hiruidnee",
+          "resourceId": "mdiuqa",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test112",
+          "stageDeploymentId": "tm038c",
+          "mode": 1
+        }
+      }
+    },
     "customTemplate": {
       "dialect": null,
       "definitions": null
@@ -88,7 +121,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1570175754986
+    "lastSave": 1570176254490
   },
   "VCS_STATE": {
     "provider": "GitHub",
