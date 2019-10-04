@@ -33,8 +33,12 @@
         },
         "triggers": [
           {
-            "resourceName": "apigusEast1sachithraAPInamehiruidneeany",
-            "config": {}
+            "resourceName": "s3cloud9Ktest",
+            "config": {
+              "type": "s3:ObjectRemoved:*",
+              "keyPrefix": "",
+              "keySuffix": ""
+            }
           }
         ]
       },
@@ -64,10 +68,22 @@
     },
     "rootNode": "40183879-5255-41ef-99f6-1a1ce177ccca",
     "openFiles": [
-      "004b7822-eacd-4429-8a83-b311c36eac2a"
+      "004b7822-eacd-4429-8a83-b311c36eac2a",
+      "cd6fcf61-1a5f-4f05-b83e-37f15e89daa5"
     ],
     "currentFileId": "004b7822-eacd-4429-8a83-b311c36eac2a",
     "resources": {
+      "s3cloud9Ktest": {
+        "name": "s3cloud9Ktest",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "cloud9-ktest"
+          }
+        }
+      },
       "apigusEast1sachithraAPInamehiruidneeany": {
         "name": "apigusEast1sachithraAPInamehiruidneeany",
         "type": "API_GATEWAY",
@@ -121,7 +137,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1570176254490
+    "lastSave": 1570176347297
   },
   "VCS_STATE": {
     "provider": "GitHub",
