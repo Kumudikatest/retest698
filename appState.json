@@ -8,7 +8,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "004b7822-eacd-4429-8a83-b311c36eac2a"
+          "004b7822-eacd-4429-8a83-b311c36eac2a",
+          "dda77338-e2a9-4022-b50c-9adf16c8ca91"
         ],
         "isRemovable": false,
         "filePath": "retest698"
@@ -31,13 +32,37 @@
           "layers": []
         },
         "triggers": []
+      },
+      "dda77338-e2a9-4022-b50c-9adf16c8ca91": {
+        "id": "dda77338-e2a9-4022-b50c-9adf16c8ca91",
+        "parent": "40183879-5255-41ef-99f6-1a1ce177ccca",
+        "name": "kdir",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "cd6fcf61-1a5f-4f05-b83e-37f15e89daa5"
+        ],
+        "isRemovable": true,
+        "filePath": "retest698/kdir"
+      },
+      "cd6fcf61-1a5f-4f05-b83e-37f15e89daa5": {
+        "id": "cd6fcf61-1a5f-4f05-b83e-37f15e89daa5",
+        "parent": "dda77338-e2a9-4022-b50c-9adf16c8ca91",
+        "name": "kumu.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "retest698/kdir/kumu.js",
+        "code": "//hi there"
       }
     },
     "rootNode": "40183879-5255-41ef-99f6-1a1ce177ccca",
     "openFiles": [
-      "004b7822-eacd-4429-8a83-b311c36eac2a"
+      "004b7822-eacd-4429-8a83-b311c36eac2a",
+      "cd6fcf61-1a5f-4f05-b83e-37f15e89daa5"
     ],
-    "currentFileId": "004b7822-eacd-4429-8a83-b311c36eac2a",
+    "currentFileId": "cd6fcf61-1a5f-4f05-b83e-37f15e89daa5",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -64,7 +89,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1570175313194
+    "lastSave": 1570175611391
   },
   "VCS_STATE": {
     "provider": "GitHub",
